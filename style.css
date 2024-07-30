@@ -442,3 +442,18 @@ button:active{
     }
 
 }
+
+.face:hover{
+    background-color: blue;
+    color: white;
+}
+
+.google:hover{
+    background-color: rgb(17, 231, 17);
+    color: white;
+}
+
+.link:hover{
+    background-color: #0647a2;
+    color: #fff;
+}
