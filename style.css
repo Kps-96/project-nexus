@@ -7,9 +7,8 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* background-color: #f6f5f7; */
-    background: rgb(255,34,140);
-    background: linear-gradient(143deg, rgba(255,34,140,1) 35%, rgba(255,75,40,1) 100%);
+    background: rgb(2,0,36);
+    background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(0,212,255,1) 100%);
     font-family:sans-serif;
     height: 100%;
     margin: 10%;
@@ -90,13 +89,13 @@ a{
 
 button{
     color: #fff;
-    background: #ff4b2b;
+    background: #0647a2;
     font-size: 12px;
     font-weight: bold;
     padding: 12px 55px;
     margin: 20px;
     border-radius: 20px;
-    border: 1px solid #ff4b2b;
+    border: 1px solid #0647a2;
     outline: none;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -143,11 +142,12 @@ button:active{
 .overlay{
     position: relative;
     color: #fff;
-    background-color: #ff416c;
+    background-color: #0647a2;
     left: -100%;
     height: 100%;
     width: 200%;
-    background: linear-gradient(to right, #ff4b28, #ff228c);
+    background: rgb(2,0,36);
+    background: linear-gradient(129deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 1%, rgba(0,212,255,1) 100%);
     transform: translateX(0);
 }
 
@@ -200,26 +200,6 @@ button:active{
     align-items: center;
     border: 1px solid #ccc;
     border-radius: 50%;
-}
-
-.resp{
-    display: flex;
-    position: absolute;
-    z-index: 200;
-    flex-direction: row;
-    justify-content: center;
-    align-items: start;
-    padding: 0%;
-    width: 100%;
-    height: auto;
-    max-height: 50px;
-    justify-content: space-between;
-    display: none;
-}
-
-.resp-btn{
-    padding: 10px 20px;
-    margin: 5px 10px;
 }
 
 /* media query */
@@ -319,11 +299,6 @@ button:active{
         transform: translateY(0);
     }
 
-    /* .resp{
-        display: block;
-        justify-content: space-evenly;
-        margin: 5px 25%;
-    } */
 }
 
 @media only screen and (max-width: 540px) {

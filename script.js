@@ -9,3 +9,4 @@ signupbtn.addEventListener('click', () => {
 loginbtn.addEventListener('click', () => {
     main.classList.remove("active")
 });
+
